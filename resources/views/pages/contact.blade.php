@@ -19,55 +19,6 @@
     </div>
 </section>
 
-{{-- <section id="kontak" class="py-20 bg-gray-50 font-urbanist">
-    <div class="container mx-auto px-6 md:px-12">
-        <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-8 text-center">Kontak Kami</h2>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-
-            <!-- Form Kontak -->
-            <div>
-                <form action="#" method="POST" class="bg-white shadow rounded-2xl p-8 space-y-6">
-                    <div>
-                        <label for="name" class="block text-gray-700 font-semibold mb-2">Nama</label>
-                        <input type="text" id="name" name="name" class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-red-600" required>
-                    </div>
-
-                    <div>
-                        <label for="email" class="block text-gray-700 font-semibold mb-2">Email</label>
-                        <input type="email" id="email" name="email" class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-red-600" required>
-                    </div>
-
-                    <div>
-                        <label for="message" class="block text-gray-700 font-semibold mb-2">Pesan</label>
-                        <textarea id="message" name="message" rows="5" class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-red-600" required></textarea>
-                    </div>
-
-                    <button type="submit" class="bg-red-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-red-700 transition">Kirim Pesan</button>
-                </form>
-            </div>
-            <!-- Info Kontak -->
-            <div class="space-y-6">
-                <div>
-                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Alamat</h3>
-                    <p class="text-gray-600 leading-relaxed">Jl. Bambu Petung No.1 F-G, Kelurahan Cipayung, Kecamatan Cipayung, Jakarta Timur, 13840</p>
-                </div>
-
-                <div>
-                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Email</h3>
-                    <p class="text-gray-600 leading-relaxed">patdarajaya@gmail.com</p>
-                </div>
-
-                <div>
-                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Telepon</h3>
-                    <p class="text-gray-600 leading-relaxed">021-22816708</p>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section> --}}
-
 <section id="kontak" class="py-20 bg-gray-50 font-urbanist">
     <div class="container mx-auto px-6 md:px-12">
 
