@@ -28,7 +28,7 @@
                 <ul class="space-y-2 text-sm">
                     <li>📍 Jl. Bambu Petung No.1 F-G, Cipayung, Jakarta Timur, 13840</li>
                     <li>📧 <a href="mailto:patdarajaya@gmail.com" class="hover:text-purple-400 transition">patdarajaya@gmail.com</a></li>
-                    <li>☎️ <a href="tel:02122816708" class="hover:text-purple-400 transition">(021) 22816708</a></li>
+                    <li>☎️ <a href="tel:6281317081630" class="hover:text-purple-400 transition">+62 813-1708-1630</a></li>
                 </ul>
             </div>
         </div>

@@ -48,7 +48,7 @@
                 </svg>
 
                 <h3 class="text-xl font-semibold text-gray-800 mb-2">Telepon</h3>
-                <a href="tel:02122816708" class="text-gray-600 hover:text-red-600 transition">021-22816708</a>
+                <a href="tel:6281317081630" class="text-gray-600 hover:text-red-600 transition">+62 813-1708-1630</a>
             </div>
         </div>
     </div>

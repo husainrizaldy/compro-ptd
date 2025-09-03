@@ -98,7 +98,7 @@
                         ['img' => 'logo-bin.png', 'alt' => 'BIN'],
                         ['img' => 'logo-pusjarah-tni.png', 'alt' => 'PUSJARAH TNI'],
                         ['img' => 'logo-kodam-sriwijaya.png', 'alt' => 'Kodam Sriwijaya'],
-                        ['img' => 'logo-kodam-diponogoro.png', 'alt' => 'Kodam Diponogoro'],
+                        ['img' => 'logo-kodam-diponogoro.png', 'alt' => 'Kodam Diponegoro'],
                     ];
                     $merged = array_merge($logos, $logos);
                 @endphp
