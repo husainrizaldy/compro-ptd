@@ -21,6 +21,9 @@ Route::view('/tentang-kami', 'pages.about');
 
 // Layanan
 Route::view('/layanan', 'pages.service');
+Route::view('/layanan/jasa-cleaning-service', 'pages.service.cleaning');
+Route::view('/layanan/jasa-konstruksi', 'pages.service.konstruksi');
+Route::view('/layanan/jasa-pengadaan', 'pages.service.pengadaan');
 
 // Kontak
 Route::view('/kontak', 'pages.contact');

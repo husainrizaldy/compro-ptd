@@ -3,14 +3,21 @@
 @section('title', 'Tentang Kami')
 
 @section('content')
-<section class="relative bg-cover bg-center min-h-80 pt-5 md:pt-20 flex items-center justify-start" style="background-image: url('{{ asset('images/eduvibe-breadcrumb-bg.jpg') }}');">
-    <div class="absolute inset-0 bg-black bg-opacity-30"></div>
-    <div class="container mx-auto px-12 relative z-10">
+<section class="relative bg-cover bg-center min-h-80 pt-5 md:pt-20 flex items-center justify-start"
+    style="background-image: url('{{ asset('images/eduvibe-breadcrumb-bg.jpg') }}');">
+
+    <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+
+    <div class="container mx-auto px-6 md:px-12 relative z-10">
         <div class="text-left text-white">
-            <h1 class="font-extrabold text-4xl md:text-5xl tracking-tight leading-tight mb-2">Tentang Kami</h1>
+            <h1 class="font-extrabold text-4xl md:text-5xl tracking-tight leading-tight mb-2">
+                Tentang Kami
+            </h1>
             <nav class="text-sm text-gray-200">
                 <ol class="list-reset flex space-x-2">
-                    <li><a href="/" class="hover:text-red-400">Beranda</a></li>
+                    <li>
+                        <a href="/" class="hover:text-red-400">Beranda</a>
+                    </li>
                     <li>/</li>
                     <li class="text-white font-semibold">Tentang Kami</li>
                 </ol>
@@ -88,25 +95,7 @@
     </div>
 </section>
 
-<section class="relative bg-blue-700 py-20 text-center text-white">
-    <div class="absolute inset-0 bg-cover bg-center opacity-20" 
-         style="background-image: url('/images/cta-bg.jpg');"></div>
-    
-    <div class="relative container mx-auto px-6 md:px-12">
-        <h2 class="text-3xl md:text-4xl font-bold mb-4">Bekerja Sama dengan Profesional</h2>
-        <p class="text-lg max-w-xl mx-auto mb-8 leading-relaxed">
-            CV. Patdara Kusuma Jaya siap mendukung kebutuhan konstruksi, kebersihan, dan pengadaan Anda.
-        </p>
-        <div class="flex flex-col md:flex-row justify-center gap-4">
-            <a href="{{ url('/kontak') }}" class="px-6 py-3 bg-white text-blue-700 font-semibold rounded-lg shadow hover:bg-gray-100 transition">
-                Hubungi Kami
-            </a>
-            <a href="#" target="_blank" class="px-6 py-3 border border-white font-semibold rounded-lg hover:bg-white hover:text-blue-700 transition">
-                Lihat Profil Perusahaan
-            </a>
-        </div>
-    </div>
-</section>
+@include('partials.cta1')
 
 
 @endsection

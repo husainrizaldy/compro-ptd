@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;600;700&display=swap" rel="stylesheet">
 
   @vite(['resources/css/app.css', 'resources/js/app.js'])
+  @stack('styles')
 </head>
 <body class="font-urbanist antialiased text-gray-900">
   @include('partials.navbar')
@@ -19,5 +20,6 @@
   </main>
 
   @include('partials.footer')
+  @stack('scripts')
 </body>
 </html>
