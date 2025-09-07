@@ -27,3 +27,11 @@ Route::view('/layanan/jasa-pengadaan', 'pages.service.pengadaan');
 
 // Kontak
 Route::view('/kontak', 'pages.contact');
+
+Route::get('/download-profil', function () {
+    $filePath = storage_path('app/private/company-profile-patdara-kusuma-jaya.pdf');
+    if (! file_exists($filePath)) {
+        abort(404);
+    }
+    return response()->download($filePath, 'company-profile-patdara-kusuma-jaya.pdf');
+});

@@ -14,7 +14,7 @@
             <a href="{{ url('/kontak') }}" class="px-6 py-3 bg-white text-blue-700 font-semibold rounded-lg shadow hover:bg-gray-100 transition">
                 Hubungi Kami
             </a>
-            <a href="#" target="_blank" class="px-6 py-3 border border-white font-semibold rounded-lg hover:bg-white hover:text-blue-700 transition">
+            <a href="{{ url('/download-profil') }}" target="_blank" class="px-6 py-3 border border-white font-semibold rounded-lg hover:bg-white hover:text-blue-700 transition">
                 Lihat Profil Perusahaan
             </a>
         </div>

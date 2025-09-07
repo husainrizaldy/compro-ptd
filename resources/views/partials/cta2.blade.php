@@ -7,7 +7,7 @@
         <p class="text-lg max-w-xl mx-auto mb-8 leading-relaxed">
             CV. Patdara Kusuma Jaya siap mendukung kebutuhan konstruksi, kebersihan, dan pengadaan Anda.
         </p>
-        <a href="#" target="_blank" class="px-8 py-4 bg-white text-blue-700 font-semibold rounded-lg shadow hover:bg-gray-100 transition">
+        <a href="{{ url('/download-profil') }}" target="_blank" class="px-8 py-4 bg-white text-blue-700 font-semibold rounded-lg shadow hover:bg-gray-100 transition">
             Lihat Profil Perusahaan
         </a>
     </div>
